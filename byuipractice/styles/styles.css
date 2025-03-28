@@ -1,6 +1,11 @@
+body {
+    margin: 0;
+}
+
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
+    margin: 50px auto;
 }
 
 #active {
@@ -12,6 +17,7 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue
 }
 
 main p {
@@ -19,15 +25,24 @@ main p {
     margin: 50px auto;
 }
 
+nav {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 25px;
+}
+
 a {
     font-size: 1.5em;
+    padding: 25px;
 }
 
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
-nav, footer {
+footer {
     text-align: center;
     background-color: steelblue;
     color: white;
@@ -36,7 +51,7 @@ nav, footer {
 
 footer p {
     font-size: 20px;
-    margin: 20px auto;
+    padding: 25px;
 }
 
 a:hover {
