@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Freckle+Face&display=swap');
+
 #content {
     max-width: 1600px;
     margin:0 auto;
+}
+
+header a img {
+    border-radius: 50%;
 }
 
 nav a {
     text-align: center;
     color: #f8a23a;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -16,6 +23,14 @@ nav a:hover {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: "Freckle Face", sans-serif;
+}
+
+.home-title {
+    color: #274436;
+    font-family: "Forum", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box {
@@ -26,6 +41,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #f8a23a;
@@ -33,6 +52,14 @@ main section {
 
 body {
     background-color: #c1d7d2;
+    font-family: "Forum", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -43,6 +70,10 @@ header {
     background-color: #243036;
     color: #f8a23a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -51,13 +82,38 @@ header {
 
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 .msg {
     background-color: #274436;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color:#f8a23a;
+    font-family: "Freckle Face";
+}
+
+.msg p {
+    color: white;
+    font-size: .8em;
+    font-family: "Forum", Helvetica, sans-serif;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #243036;
     color: white;
+    font-family: "Forum", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -77,28 +133,25 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-.home-title {
-    color: #274436;
+footer .social img {
+    padding-top: 15px;
 }
 
 h4 {
     color: #274436;
 }
 
-.msg h2 {
-    color:#274436
-}
-
-.msg p {
-    color: white;
-}
-
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
